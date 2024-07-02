@@ -1,0 +1,20 @@
+
+
+div{
+    color: rgb(123, 33, 33);
+    text-align: center;
+    width: 100%;
+} 
+main{
+    max-width: fit-content;
+    border: solid;
+    margin-inline-start: 40%;
+    background-color: pink;
+
+}
+h1{
+    max-width: fit-content;
+    border: solid;
+    background-color: rgb(235, 81, 107);
+    text-decoration: red double underline;
+}

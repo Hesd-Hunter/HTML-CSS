@@ -1,0 +1,119 @@
+#container{
+    height: 500px;
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    background-image: url(kakashi.jpg);
+    background-size: cover;
+    opacity: 80%;
+    margin: 10px auto;
+    border: 5px solid black;
+    display: flex;
+}
+
+p{
+    color: aliceblue;
+    text-decoration: solid white;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    color: white;
+    text-align: center;
+}
+#user div{
+    display: inline-block;
+    /*position: relative;
+    left: 50px;*/
+}
+#user .Password{
+    position: relative;
+    left: 150px;
+}
+.DP div{
+    display: inline-block;
+    position: relative;
+    left: 10%;
+
+}
+.Agreement{
+    position: relative;
+    left: 40%;
+    color: white; 
+}
+
+
+.Name{
+    display: inline-block;
+    position: relative;
+    left: 35%;
+}
+
+.Gender{
+    display: inline-block;
+    position: relative;
+    left: 33%;
+    color: white;
+}
+
+hr{
+    width: 100px;
+    position: relative;
+    right: 40%;
+}
+
+#Box{
+    width: 590px ;
+    position: relative;
+    left:23%;
+    border: 5px solid white;
+    background-color: rgba(0, 0, 0, 30%);
+}
+div#user {
+    position: relative;
+    left: 50px;
+}
+
+
+#container1{
+    background-color: pink;
+    height: 50px;
+    width: 900px;
+    margin: 10px auto;
+    border: 5px solid lightseagreen;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    /*justify-content: space-evenly;
+    align-content: space-evenly;*/
+    border-radius: 5%;
+}
+#container1 div{
+    height: 50px;
+    width: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    flex-grow: 1.2;
+}
+#container1 div p{
+    font-size: 24px;
+    text-align: center;
+    display: flex;
+    align-self: center;
+    
+    
+}
+#div1{
+    background-image: url(Khatra.png);
+    background-size: cover;
+    flex-grow: 1;
+
+}
+#div2{
+    flex-grow: 2;
+}

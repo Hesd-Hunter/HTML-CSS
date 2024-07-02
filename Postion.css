@@ -1,0 +1,46 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    text-align: center;
+    border: 3px solid black;
+    margin: 20px;
+    display: inline-block;
+}
+
+
+#Static {
+    background-color: rgb(255, 55, 0);
+    position: static;
+    top: 100px;
+    left: 100px;  
+}
+#Relative {
+    background-color: rgb(255, 102, 0);
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+#Absolute {
+    background-color: rgb(214, 60, 33);
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+#Fixed {
+    background-color: rgb(214, 60, 33);
+    position: fixed;
+    top: 100px;
+    left: 100px;
+}
+#Fixed1 {
+    background-color: rgba(43, 155, 180, 0.45);
+    position: fixed;
+    left: 300px;
+    color: rgba(44, 55, 64, 0.1);
+    transition: 2s;
+}
+h1:hover{
+    background-color: aqua;
+    border-radius: 45%;
+}

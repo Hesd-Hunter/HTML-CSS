@@ -1,0 +1,92 @@
+h1{
+    display: inline-block;
+}
+
+section{
+    display: inline-block;
+}
+.sad{
+    position: absolute;
+    left: 120px;
+
+}
+#square{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(13, 8, 8);
+    position: absolute;
+}
+#circle{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #ffa511;
+    position: absolute;
+
+}
+#eye1{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    top: 25px;
+    left: 25px;
+}
+#eye2{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    top: 5px;
+    left: 55px;
+}
+#mouth{
+    width: 50px;
+    height: 15px;
+    border-radius:0%  0% 50% 50%;
+    background-color: red;
+    position: relative;
+    bottom: -20px;
+    left: 25px;
+}
+#Leye{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    top: 25px;
+    left: 25px;
+}
+#Reye{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    top: 5px;
+    left: 55px;
+}
+#mouth1{
+    width: 50px;
+    height: 15px;
+    border-radius:50% 50% 0% 0%;
+    background-color: red;
+    position: relative;
+    bottom: -20px;
+    left: 25px;
+}
+#tears{
+    width: 6px;
+    height: 6px;
+    
+    border-radius:0% 10% 70% 10% ;
+    background-color: rgb(195, 234, 234);
+    transform: rotate(45deg);
+    position: relative;
+    left: 70px;
+    top: 8px;
+
+}

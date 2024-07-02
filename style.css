@@ -1,0 +1,81 @@
+*{
+    font-family: 'Courier New';
+}
+
+h1,h3{
+    color: rgba(37, 16, 16, 0.641);
+}
+
+#login{
+    background-color: #b92b27;
+    color: white;
+}
+#signup{
+    background-color: #b92b27;
+    color: white;
+}
+
+.upvote{
+    background-color: #b92b27;
+    color: white;
+}
+/*Descendent relation*/
+#myid p{
+    color: rgb(245, 41, 54);
+    text-align: center;
+}
+
+p a{
+    color: aqua;
+    background-color: azure;
+}
+p a:hover{
+    color: rgb(245, 41, 54);
+}
+nav ul li{
+    color: hotpink;
+}
+nav ul li a:hover{
+    color: hotpink;
+}
+/*Sibling combinator*/
+p+h3{
+    text-decoration: underline;
+}
+.upvote+button{
+    background-color: blanchedalmond;
+}
+/*Child combinator: direct descendent*/
+main>p{
+    color: #b92b27;
+}
+/*Atrribute Selector*/
+input[type="text"]{
+    color: green;
+}
+input[type="password"]{
+    color: red;
+}
+input[type]{
+    background-color: aliceblue;
+}
+/*Pseudo Class: checked, haver, active, nth-of-type()*/
+input[type="radio"]:checked + label{
+    color: yellow;
+    font-weight: bolder;
+}
+input[type="radio"]:checked + label:nth-of-type(1){
+    color: blue;
+    font-weight: bolder;
+}
+input[type="radio"]:checked + label:nth-of-type(5){
+    color: red;
+    font-weight: bolder;
+}
+/*pseudo element- first-letter, first-line, selection,etc*/
+h1::first-letter{
+    color: green;
+}
+h3::selection{
+    background-color: palevioletred;
+}
